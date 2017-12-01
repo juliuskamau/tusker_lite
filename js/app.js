@@ -15,40 +15,32 @@
 };
 
 
-ACTIVELINKS = {
-    bindActiveLinks: function () {
-   
-        $(document).ready(function(){
-            $('ul li a').click(function(){
-              $('li a').removeClass("active");
-              $(this).addClass("active");
-          });
-          });
-        
-    }
-};
-
-
-
-
-
-
-SNOW = {
-    bindSnow: function () {
-   
-        $(document).ready( function(){
-            $.fn.snow();
+PARALLAX = {
+    bindParralax: function () {
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+              sectionsColor: ['#000', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+              anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+              menu: '#menu',
+            });
         });
         
     }
 };
 
 
+
+
+
+
+
+
+
+
+
 var onLoad = function () {
-    ACTIVELINKS.bindActiveLinks();
-    SNOW.bindSnow();
     LOADER.bindLoader();
-   
+    PARALLAX.bindParralax();
  
 };
 
