@@ -19,9 +19,14 @@ PARALLAX = {
     bindParralax: function () {
         $(document).ready(function() {
             $('#fullpage').fullpage({
-              sectionsColor: ['#000', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
-              anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+              sectionsColor: ['#000', '#000', '#171717', '#000', '#000'],
+              anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5fifth'],
               menu: '#menu',
+              scrollBar: true,
+              scrollOverflow: true,
+              
+              
+
             });
         });
         
