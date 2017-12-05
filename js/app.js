@@ -19,8 +19,8 @@ PARALLAX = {
     bindParralax: function () {
         $(document).ready(function() {
             $('#fullpage').fullpage({
-              sectionsColor: ['#000', '#000', '#171717', '#000', '#000','#000'],
-              anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5fifthpage','6sixthpage'],
+              sectionsColor: ['#000', '#000', '#171717', '#000', '#000'],
+              anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5fifthpage'],
               menu: '#menu',
               scrollBar: true, 
               

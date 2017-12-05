@@ -374,7 +374,7 @@ header .fa {
 #section1 .fp-tableCell {
 	display: inherit;
 }
-/*#section3 .fp-tableCell, #section4 .fp-tableCell, #section5 .fp-tableCell {
+/*#section2 .fp-tableCell, #section3 .fp-tableCell, #section4 .fp-tableCell {
 	padding-top: 5%;
 }*/
 #section0 {
@@ -393,11 +393,11 @@ header .fa {
 	text-transform: uppercase;
 	line-height: 70px
 }
-#section4 .bodyText h1 {
+#section3 .bodyText h1 {
 	color: #62EB92;
 	text-align: right;
 }
-#section4 .bodyText p {
+#section3 .bodyText p {
 	font-family: "Cervo-LightItalic";
 	text-align: right;
 	font-size: 24px;
@@ -434,26 +434,26 @@ header .fa {
 	padding: 0.15em 1em;
 	font-size: 30px;
 }
-#section0 .locaton h2, #section2 .panel_djs h2, #section3 .wrapper_thumbnail h2 {
+#section0 .locaton h2, #section-hide .panel_djs h2, #section2 .wrapper_thumbnail h2 {
 	font-family: "Cervo-LightItalic";
 	font-size: 40px;
 	color: #62EB92;
 	text-transform: uppercase;
 }
 
-#section3 .wrapper_thumbnail .social_container{
+#section2 .wrapper_thumbnail .social_container{
  margin-bottom: 5%; 
  margin-top:4%;   
 }
 
-#section3 .wrapper_thumbnail ul li ul {
+#section2 .wrapper_thumbnail ul li ul {
 	margin: 0px;
 	padding: 0px;
 }
-#section3 .wrapper_thumbnail ul li.cell {
+#section2 .wrapper_thumbnail ul li.cell {
 	list-style: none;
 }
-#section3 .wrapper_thumbnail .orbit-next, #section3 .wrapper_thumbnail .orbit-previous {
+#section2 .wrapper_thumbnail .orbit-next, #section2 .wrapper_thumbnail .orbit-previous {
 	background-color: #363636;
 	font-family: "Cervo-LightItalic";
 	width: 175px;
@@ -464,47 +464,47 @@ header .fa {
 	font-size: 28px;
 	padding: 5px 5px;
 }
-#section3 .wrapper_thumbnail .orbit-next:active, #section3 .wrapper_thumbnail .orbit-next:focus, #section3 .wrapper_thumbnail .orbit-next:hover, #section3 .wrapper_thumbnail .orbit-previous:active, #section3 .wrapper_thumbnail .orbit-previous:focus, #section3 .wrapper_thumbnail .orbit-previous:hover {
+#section2 .wrapper_thumbnail .orbit-next:active, #section2 .wrapper_thumbnail .orbit-next:focus, #section2 .wrapper_thumbnail .orbit-next:hover, #section2 .wrapper_thumbnail .orbit-previous:active, #section2 .wrapper_thumbnail .orbit-previous:focus, #section2 .wrapper_thumbnail .orbit-previous:hover {
 	background-color: rgb(98, 235, 146);
 	color: white;
 }
-#section3 .wrapper_thumbnail .orbit-previous {
+#section2 .wrapper_thumbnail .orbit-previous {
 	left: -13.6%;
 	float: left;
 }
-#section3 .wrapper_thumbnail .orbit-next {
+#section2 .wrapper_thumbnail .orbit-next {
 	left: auto;
 	right: -13.6%;
 }
-#section3 .wrapper_thumbnail .panel {
+#section2 .wrapper_thumbnail .panel {
 	margin-bottom: 1.25rem;
 	padding: 1.25rem;
 	background: #171717;
 	color: #fff;
 	font-family: "Montserrat-Light";
 }
-#section3 .wrapper_thumbnail .profile_image img {
+#section2 .wrapper_thumbnail .profile_image img {
 	width: 100%;
 	max-width: 50px;
 	height: 50px;
 	border-radius: 50px;
 }
-#section3 .wrapper_thumbnail ul li ul li h1 {
+#section2 .wrapper_thumbnail ul li ul li h1 {
 	font-size: 30px;
 	text-transform: uppercase;
 	margin: 0px;
 }
-#section3 .wrapper_thumbnail ul li ul li span {
+#section2 .wrapper_thumbnail ul li ul li span {
 	color: #7E7E7E;
 	font-size: 25px;
 	font-family: "Cervo-LightItalic";
 	margin: 0px;
 }
-#section3 .wrapper_thumbnail ul li ul li .fa {
+#section2 .wrapper_thumbnail ul li ul li .fa {
 	color: #2F2F2F;
 	font-size: 40px;
 }
-#section3 .wrapper_thumbnail p {
+#section2 .wrapper_thumbnail p {
 	font-size: 13px;
 	font-family: "Montserrat-Light";
 }
@@ -526,7 +526,7 @@ header .fa {
     margin-top: -47px;
 }
 
-#section1 .panel h1, #section1 .panel02 h1, #section2 .panel02 h1 {
+#section1 .panel h1, #section1 .panel02 h1, #section-hide .panel02 h1 {
 	font-size: 35px;
 	text-transform: uppercase;
 	clear: both;
@@ -536,17 +536,17 @@ header .fa {
 	font-family: "Cervo-LightItalic";
 	clear: both;
 }
-#section2 .panel_djs p {
+#section-hide .panel_djs p {
 	font-size: 24px;
 	font-family: "Cervo-LightItalic";
 	clear: both;
 	line-height: normal;
 }
-#section2 .panel_djs img {
+#section-hide .panel_djs img {
 	width: 100%;
 	max-width: 80%;
 }
-#section2 .panel_djs .cell:nth-child(2) img {
+#section-hide .panel_djs .cell:nth-child(2) img {
 	margin-top: 15%;
 }
 #section1 .panel p {
@@ -567,7 +567,7 @@ header .fa {
 .container_panel{
     margin-top: 7%;
 }
-#section2 .container_panel{
+#section-hide .container_panel{
     margin-top: 2%;
 }
 #section1 .panel_wrap .absolute {
@@ -585,10 +585,10 @@ ul.border-bottom li {
 	float: left;
 	width: 100%;
 }
-#section3 .wrapper_thumbnail ul.border-bottom li {
+#section2 .wrapper_thumbnail ul.border-bottom li {
 	max-width: 4%;
 }
-#section2 .panel_djs ul.border-bottom li {
+#section-hide .panel_djs ul.border-bottom li {
 	max-width: 5%;
 }
 #section1 .panel ul.border-bottom li {
@@ -601,7 +601,7 @@ ul.border-bottom li {
 #section1 .panel ul.border-bottom li:first-child {
 	margin: 10px 0px 10px 0px;
 }
-#section5 .callender_wrapper h1 {
+#section4 .callender_wrapper h1 {
 	text-transform: uppercase;
 	font-size: 70px;
     margin-bottom: 2%;
@@ -609,7 +609,7 @@ ul.border-bottom li {
     clear: both;
     display: block;
 }
-#section5 .callender_wrapper .panel_button {
+#section4 .callender_wrapper .panel_button {
 	padding: 1.25rem 0px 1.25rem 0px;
 	-webkit-transition: all .25s ease-in-out;
 	-moz-transition: all .25s ease-in-out;
@@ -622,10 +622,10 @@ ul.border-bottom li {
 	bottom: 0px;
 	background-color: #171717;
 }
-#section5 .callender_wrapper .active .panel_button {
+#section4 .callender_wrapper .active .panel_button {
 	background-color: transparent;
 }
-#section5 .callender_wrapper .panel:hover .panel_button, #section5 .callender_wrapper .active .panel_button {
+#section4 .callender_wrapper .panel:hover .panel_button, #section4 .callender_wrapper .active .panel_button {
 	background-image: url(../images/hover_panel.png);
 	background-color: transparent;
 	z-index: 99;
@@ -640,7 +640,7 @@ ul.border-bottom li {
     color: #000;
     font-size: 14px;
 }
-#section5 .callender_wrapper .panel_button .button {
+#section4 .callender_wrapper .panel_button .button {
 	background: none;
 	border-radius: 10px;
 	border: solid 1px #7E7E7E;
@@ -650,7 +650,7 @@ ul.border-bottom li {
 	display: block;
 	color: #7E7E7E;
 }
-#section5 .callender_wrapper .panel:hover .panel_button .button, #section5 .callender_wrapper .active .panel_button .button {
+#section4 .callender_wrapper .panel:hover .panel_button .button, #section4 .callender_wrapper .active .panel_button .button {
 	border: solid 1px #fff;
 	color: #fff;
 	bottom: 20px;
@@ -863,14 +863,14 @@ footer {
 
 @media (max-width: 767px) {
 
-    #section5 .callender_wrapper .panel_button .button {
+    #section4 .callender_wrapper .panel_button .button {
         padding: 5px;
         font-size: 12px;
     }
-	#section5 .callender_wrapper h1 {
+	#section4 .callender_wrapper h1 {
 		font-size: 45px;
 	}
-	#section5 .callender_wrapper .panel_button {
+	#section4 .callender_wrapper .panel_button {
 		padding: 0.5rem 0px 0.5rem 0px;
 	}
 	.callender_wrapper .cell {
@@ -879,25 +879,25 @@ footer {
     .callender_wrapper .cell:last-child{
 margin: auto;
     }
-	#section3 .wrapper_thumbnail .orbit-previous {
+	#section2 .wrapper_thumbnail .orbit-previous {
 		left: -34.6%;
 	}
-	#section3 .wrapper_thumbnail .orbit-next {
+	#section2 .wrapper_thumbnail .orbit-next {
 		right: -34.6%;
 	}
-	#section3 .wrapper_thumbnail ul li ul li span {
+	#section2 .wrapper_thumbnail ul li ul li span {
 		clear: both;
 		display: block;
 	}
-	#section4 .bodyText h1 {
+	#section3 .bodyText h1 {
 		font-size: 45px;
 		text-align: center;
 	}
-	#section4 .bodyText p {
+	#section3 .bodyText p {
 		font-size: 17px;
 		text-align: center;
 	}
-	#section4 .fp-tableCell {
+	#section3 .fp-tableCell {
 		display: table-cell;
 		padding: 0px;
 	}
@@ -915,7 +915,7 @@ margin: auto;
 	#menu {
 		right: 20px;
 	}
-	#section2 .panel_djs .cell:nth-child(2) img {
+	#section-hide .panel_djs .cell:nth-child(2) img {
 		margin-top: 0px;
 	}
 	#section0 .locaton h2 {
@@ -923,12 +923,12 @@ margin: auto;
         margin: 10px auto 10px auto;
         font-size: 18px;
     }
-    #section2 .panel_djs h2, #section3 .wrapper_thumbnail h2{
+    #section-hide .panel_djs h2, #section2 .wrapper_thumbnail h2{
         text-align: center;
         margin: 10px auto 10px auto;
         font-size: 30px;  
     }
-	#section2 .panel_djs p {
+	#section-hide .panel_djs p {
 		text-align: center;
 	}
 	.panel_djs .small-12 ul.border-bottom {
@@ -937,7 +937,7 @@ margin: auto;
 
     .bodyText h1,
     #section1 .bodyText h1 ,
-    #section2 .panel02 h1{
+    #section-hide .panel02 h1{
 		font-size: 30px;
         line-height: normal;
         width: 100%;
@@ -985,7 +985,7 @@ margin: auto;
         margin: auto auto 10px auto;
  
     }
-    .panel_wrap img,#section2 .panel_djs img {
+    .panel_wrap img,#section-hide .panel_djs img {
         width: 100%;
         max-width: 100%;
     }
