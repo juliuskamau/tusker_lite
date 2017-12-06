@@ -383,9 +383,7 @@ header .fa {
 #section1 {
 	background-image: url(../images/parallax-02.png);
 }
-#section0 .bodyText {
-	text-align: right;
-}
+
 
 .bodyText h1 {
 	font-size: 65px;
@@ -393,6 +391,15 @@ header .fa {
 	text-transform: uppercase;
 	line-height: 70px
 }
+#section0 .bodyText h1{
+	text-align: right;
+	font-size: 118px;
+    font-family: "Cervo-LightItalic";
+    text-transform: uppercase;
+    line-height: 95px;
+}
+
+
 #section3 .bodyText h1 {
 	color: #62EB92;
 	text-align: right;
@@ -404,6 +411,7 @@ header .fa {
 	line-height: normal;
 }
 #section0 .bodyText p {
+	text-align: right;
 	font-size: 30px;
 	line-height: normal;
 	font-family: "Cervo-LightItalic";
@@ -413,7 +421,7 @@ header .fa {
 	line-height: normal;
 }
 #section0 .bodyText {
-	margin: 70% 0px 0px 0px;
+	margin: 50% 0px 0px 0px;
 }
 #section1 .bodyText h1 {
 	width: 50%;
@@ -858,7 +866,67 @@ footer {
 
 /*The below media query is for ipad pro*/
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
+	
+	.callender_wrapper .cell {
+		margin-bottom: 1.25rem;
+	}
+	.callender_wrapper .cell:last-child,
+	#section2 .wrapper_thumbnail ul li.cell:last-child {
+		margin: auto;
+	}
+	#section0,#section1{
+		background-image: none;
+		background-color: black;
+		
+	}
+
+	.fp-tableCell,#section1 .fp-tableCell{
+		display: table-cell;
+	}
+	.grid-container {
+		padding-right: 2.625rem;
+		padding-left: 2.625rem;
+	}
+
+	.bodyText h1, #section1 .bodyText h1{
+		font-size: 30px;
+		line-height: normal;
+		width: 100%;
+		float: none;
+		text-align: center;
+	}	
+	#section1 .container_panel {
+		margin: 10px auto 10px auto;
+	}
+	.panel_wrap img {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	#section1 .panel, #section1 .panel02, .panel_djs .panel02.textleft {
+		position: initial;
+		bottom: initial;
+		right: initial;
+		left: initial;
+		text-align: center;
+		margin: 0 auto;
+	}
+	ul.border-bottom {
+		display: none;
+	}
+	#section1 .panel p {
+		width: 100%;
+		float: none;
+		margin: auto auto 10px auto;
+	}
+	#section1 .panel_wrap .absolute {
+		position: initial;
+		top: initial;
+	}
+
+}
 /*The below media query is for iphone and nexsus*/
 
 @media (max-width: 767px) {
@@ -935,7 +1003,8 @@ margin: auto;
 		margin: 0px 0px 0px 20px;
 	}
 
-    .bodyText h1,
+	.bodyText h1,
+	#section0 .bodyText h1 ,
     #section1 .bodyText h1 ,
     #section-hide .panel02 h1{
 		font-size: 30px;
@@ -946,7 +1015,8 @@ margin: auto;
     }
 .bodyText p,#section0 .bodyText p {
         font-size: 18px;
-        margin: 0px;
+		margin: 0px;
+		text-align: center;
     }
     #section1 .container_panel{
         margin: 10px auto 10px auto;
