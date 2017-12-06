@@ -30,9 +30,6 @@ PARALLAX = {
               
               }
 
-              
-              
-
             });
         });
         
@@ -42,6 +39,14 @@ PARALLAX = {
             $('.callender_wrapper .panel.relative').click(function(){
                 $('.callender_wrapper .panel.relative.active').removeClass('active');
                 $(this).addClass('active');
+            });
+        });
+        
+    },
+    bindDemosMenu: function () {
+        $(document).ready(function(){
+            $("#demosMenu").change(function(){
+              window.location.href = $(this).find("option:selected").attr("id") + '.html';
             });
         });
         
@@ -62,6 +67,7 @@ var onLoad = function () {
     LOADER.bindLoader();
     PARALLAX.bindParralax();
     PARALLAX.bindClassActive();
+    PARALLAX.bindDemosMenu();
  
 };
 

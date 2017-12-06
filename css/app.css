@@ -330,23 +330,19 @@ h4 {
 	font-size: 10px;
 }
 /*header*/
+
 .is-stuck .inline {
-    margin: 20px 0px 0px 0px;
+	margin: 20px 0px 0px 0px;
 }
-.is-stuck{
-    background:#000000e3; 
-    padding:5px 0px 5px 0px; 
-    border-bottom: solid 1px #62EB92;
-    animation: fadeInDown 1s;
-    
+.is-stuck {
+	background: #000000e3;
+	padding: 5px 0px 5px 0px;
+	border-bottom: solid 1px #62EB92;
+	animation: fadeInDown 1s;
 }
-
 .is-stuck .Logo img {
-
-    max-width: 60px;
-
+	max-width: 60px;
 }
-
 header .Logo img {
 	width: 100%;
 	max-width: 70px;
@@ -359,8 +355,8 @@ header {
 	padding: 40px 0px 20px 0px;
 }
 header .inline {
-    float: right;
-    margin: 0px;
+	float: right;
+	margin: 0px;
 }
 header .inline li {
 	margin: 0px 0px 0px 20px;
@@ -377,29 +373,26 @@ header .fa {
 /*#section2 .fp-tableCell, #section3 .fp-tableCell, #section4 .fp-tableCell {
 	padding-top: 5%;
 }*/
+
 #section0 {
 	background-image: url(../images/parallax-01.png);
 }
 #section1 {
 	background-image: url(../images/parallax-02.png);
 }
-
-
 .bodyText h1 {
 	font-size: 65px;
 	font-family: "Cervo-LightItalic";
 	text-transform: uppercase;
 	line-height: 70px
 }
-#section0 .bodyText h1{
+#section0 .bodyText h1 {
 	text-align: right;
 	font-size: 118px;
-    font-family: "Cervo-LightItalic";
-    text-transform: uppercase;
-    line-height: 95px;
+	font-family: "Cervo-LightItalic";
+	text-transform: uppercase;
+	line-height: 95px;
 }
-
-
 #section3 .bodyText h1 {
 	color: #62EB92;
 	text-align: right;
@@ -448,12 +441,10 @@ header .fa {
 	color: #62EB92;
 	text-transform: uppercase;
 }
-
-#section2 .wrapper_thumbnail .social_container{
- margin-bottom: 5%; 
- margin-top:4%;   
+#section2 .wrapper_thumbnail .social_container {
+	margin-bottom: 5%;
+	margin-top: 4%;
 }
-
 #section2 .wrapper_thumbnail ul li ul {
 	margin: 0px;
 	padding: 0px;
@@ -518,39 +509,43 @@ header .fa {
 }
 #section0 .tusker_beer img {
 	width: 35%;
-
 }
-.container_wrap{
-	top:0px;
-	left:0px;
-	right:0px;
-	z-index:99
+.container_wrap {
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 99
 }
-.loader_music{
+.loader_music {
 	background-image: url(../images/music_loader.png);
-    position: absolute;
+	position: absolute;
 	z-index: 9;
-	top:0px;
-	left:0px;
-	right:0px;
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
 	background-position: 50% 8px;
 	-webkit-animation: spin 7s linear infinite;
 	animation: spin 7s linear infinite
 }
-
 @-webkit-keyframes spin {
-	0% { -webkit-transform: rotate(360deg); }
-	100% { -webkit-transform: rotate(0deg); }
-  }
-  
-  @keyframes spin {
-	0% { transform: rotate(360deg); }
-	100% { transform: rotate(0deg); }
-  }
-
+	0% {
+		-webkit-transform: rotate(360deg);
+	}
+	100% {
+		-webkit-transform: rotate(0deg);
+	}
+}
+@keyframes spin {
+	0% {
+		transform: rotate(360deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
 #section1 .panel {
 	position: absolute;
 	bottom: -35%;
@@ -561,11 +556,10 @@ header .fa {
 	bottom: -27%;
 	left: 25%;
 }
-.panel_djs .panel02.textleft{
-    margin-left: 25%;
-    margin-top: -47px;
+.panel_djs .panel02.textleft {
+	margin-left: 25%;
+	margin-top: -47px;
 }
-
 #section1 .panel h1, #section1 .panel02 h1, #section-hide .panel02 h1 {
 	font-size: 35px;
 	text-transform: uppercase;
@@ -604,11 +598,11 @@ header .fa {
 .panel_wrap img {
 	width: 65%;
 }
-.container_panel{
-    margin-top: 7%;
+.container_panel {
+	margin-top: 7%;
 }
-#section-hide .container_panel{
-    margin-top: 2%;
+#section-hide .container_panel {
+	margin-top: 2%;
 }
 #section1 .panel_wrap .absolute {
 	top: -80px;
@@ -632,11 +626,11 @@ ul.border-bottom li {
 	max-width: 5%;
 }
 #section1 .panel ul.border-bottom li {
-    float: right;
-    max-width: 7%;
+	float: right;
+	max-width: 7%;
 }
-#section1 .panel02 ul.border-bottom li{
-    max-width: 7%;
+#section1 .panel02 ul.border-bottom li {
+	max-width: 7%;
 }
 #section1 .panel ul.border-bottom li:first-child {
 	margin: 10px 0px 10px 0px;
@@ -644,10 +638,10 @@ ul.border-bottom li {
 #section4 .callender_wrapper h1 {
 	text-transform: uppercase;
 	font-size: 70px;
-    margin-bottom: 2%;
-    margin-top: 9%;
-    clear: both;
-    display: block;
+	margin-bottom: 2%;
+	margin-top: 9%;
+	clear: both;
+	display: block;
 }
 #section4 .callender_wrapper .panel_button {
 	padding: 1.25rem 0px 1.25rem 0px;
@@ -671,14 +665,14 @@ ul.border-bottom li {
 	z-index: 99;
 	height: 100%;
 }
-.reveal{
-    animation: flipInX 1s;
-    opacity: 1;
-    outline: none;
+.reveal {
+	animation: flipInX 1s;
+	opacity: 1;
+	outline: none;
 }
-.reveal p{
-    color: #000;
-    font-size: 14px;
+.reveal p {
+	color: #000;
+	font-size: 14px;
 }
 #section4 .callender_wrapper .panel_button .button {
 	background: none;
@@ -706,9 +700,9 @@ ul.border-bottom li {
 /*menu*/
 
 #menu li a {
-    display: block;
-    height: 50px;
-    width: 9px;
+	display: block;
+	height: 50px;
+	width: 9px;
 }
 #menu li {
 	display: block;
@@ -729,22 +723,21 @@ ul.border-bottom li {
 	border: solid 2px #fff;
 }
 #menu {
-    position: fixed;
-    top: 40%;
-    right: 40px;
-    height: auto;
-    z-index: 70;
-    width: 100%;
-    max-width: 0%;
-    padding: 0;
-    margin: 0;
-    bottom: 50%;
+	position: fixed;
+	top: 40%;
+	right: 40px;
+	height: auto;
+	z-index: 70;
+	width: 100%;
+	max-width: 0%;
+	padding: 0;
+	margin: 0;
+	bottom: 50%;
 }
 /*----- PRELOADER  CSS START HERE-----*/
 
 #loader-wrapper {
-	
-	background:#000;
+	background: #000;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -781,7 +774,6 @@ ul.border-bottom li {
 	font-size: 5vw;
 	margin-bottom: 0;
 }
-
 .text-container {
 	position: fixed;
 	right: 0px;
@@ -896,36 +888,30 @@ footer {
 /*The below media query is for ipad pro*/
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-
-	
 	.callender_wrapper .cell {
 		margin-bottom: 1.25rem;
 	}
-	.callender_wrapper .cell:last-child,
-	#section2 .wrapper_thumbnail ul li.cell:last-child {
+	.callender_wrapper .cell:last-child, #section2 .wrapper_thumbnail ul li.cell:last-child {
 		margin: auto;
 	}
-	#section0,#section1{
+	#section0, #section1 {
 		background-image: none;
 		background-color: black;
-		
 	}
-
-	.fp-tableCell,#section1 .fp-tableCell{
+	.fp-tableCell, #section1 .fp-tableCell {
 		display: table-cell;
 	}
 	.grid-container {
 		padding-right: 2.625rem;
 		padding-left: 2.625rem;
 	}
-
-	.bodyText h1, #section1 .bodyText h1{
+	.bodyText h1, #section1 .bodyText h1 {
 		font-size: 30px;
 		line-height: normal;
 		width: 100%;
 		float: none;
 		text-align: center;
-	}	
+	}
 	#section1 .container_panel {
 		margin: 10px auto 10px auto;
 	}
@@ -933,8 +919,7 @@ footer {
 		width: 100%;
 		max-width: 100%;
 	}
-
-	#section1 .panel, #section1 .panel02, .panel_djs .panel02.textleft,.container_wrap  {
+	#section1 .panel, #section1 .panel02, .panel_djs .panel02.textleft, .container_wrap {
 		position: initial;
 		bottom: initial;
 		right: initial;
@@ -954,20 +939,17 @@ footer {
 		position: initial;
 		top: initial;
 	}
-
-	.loader_music{
-display: none;
+	.loader_music {
+		display: none;
 	}
-
 }
 /*The below media query is for iphone and nexsus*/
 
 @media (max-width: 767px) {
-
-    #section4 .callender_wrapper .panel_button .button {
-        padding: 5px;
-        font-size: 12px;
-    }
+	#section4 .callender_wrapper .panel_button .button {
+		padding: 5px;
+		font-size: 12px;
+	}
 	#section4 .callender_wrapper h1 {
 		font-size: 45px;
 	}
@@ -976,10 +958,10 @@ display: none;
 	}
 	.callender_wrapper .cell {
 		margin-bottom: 1.25rem;
-    }
-    .callender_wrapper .cell:last-child{
-margin: auto;
-    }
+	}
+	.callender_wrapper .cell:last-child {
+		margin: auto;
+	}
 	#section2 .wrapper_thumbnail .orbit-previous {
 		left: -34.6%;
 	}
@@ -1021,39 +1003,35 @@ margin: auto;
 	}
 	#section0 .locaton h2 {
 		text-align: center;
-        margin: 10px auto 10px auto;
-        font-size: 18px;
-    }
-    #section-hide .panel_djs h2, #section2 .wrapper_thumbnail h2{
-        text-align: center;
-        margin: 10px auto 10px auto;
-        font-size: 30px;  
-    }
+		margin: 10px auto 10px auto;
+		font-size: 18px;
+	}
+	#section-hide .panel_djs h2, #section2 .wrapper_thumbnail h2 {
+		text-align: center;
+		margin: 10px auto 10px auto;
+		font-size: 30px;
+	}
 	#section-hide .panel_djs p {
 		text-align: center;
 	}
 	.panel_djs .small-12 ul.border-bottom {
 		margin: 0px 0px 0px 20px;
 	}
-
-	.bodyText h1,
-	#section0 .bodyText h1 ,
-    #section1 .bodyText h1 ,
-    #section-hide .panel02 h1{
+	.bodyText h1, #section0 .bodyText h1, #section1 .bodyText h1, #section-hide .panel02 h1 {
 		font-size: 30px;
-        line-height: normal;
-        width: 100%;
-        float: none;
-        text-align: center;
-    }
-.bodyText p,#section0 .bodyText p {
-        font-size: 18px;
+		line-height: normal;
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.bodyText p, #section0 .bodyText p {
+		font-size: 18px;
 		margin: 0px;
 		text-align: center;
-    }
-    #section1 .container_panel{
-        margin: 10px auto 10px auto;
-    }
+	}
+	#section1 .container_panel {
+		margin: 10px auto 10px auto;
+	}
 	header .Logo img {
 		width: 60%;
 	}
@@ -1068,54 +1046,47 @@ margin: auto;
 	#section0 .bodyText, #section0 .locaton {
 		margin: 0px;
 		text-align: center;
-    }
-    #section1 .panel_wrap .absolute,
-   .relative.panel_wrap{
-        position: initial;
-        top: initial;
-    }
-    #section1 .panel,#section1 .panel02,.panel_djs .panel02.textleft,.container_wrap {
-        position: initial;
-        bottom: initial;
-        right: initial;
-        left: initial;
-        text-align: center;
-        margin: 0 auto;
 	}
-	.loader_music{
-display: none;
+	#section1 .panel_wrap .absolute, .relative.panel_wrap {
+		position: initial;
+		top: initial;
 	}
-    #section1 .panel p {
-        width: 100%;
-        float: none;
-        margin: auto auto 10px auto;
- 
-    }
-    .panel_wrap img,#section-hide .panel_djs img {
-        width: 100%;
-        max-width: 100%;
-    }
-    .panel_djs
-    .large-4.medium-4.small-12.cell div{
-        margin: 0 auto;
-        text-align: center;
-    
-    }
-    ul.border-bottom{
-        display: none;
-    }
-
-    #section0 .tusker_beer img {
-        width: 20%;
-    }
-    #section0 .locaton .button{
-        padding: 10px 20px 10px 20px;
-        margin: 0px;
-        font-size: 20px;
-    }
-#section1 {
-    background-image: none;
-    
-}
-    
+	#section1 .panel, #section1 .panel02, .panel_djs .panel02.textleft, .container_wrap {
+		position: initial;
+		bottom: initial;
+		right: initial;
+		left: initial;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.loader_music {
+		display: none;
+	}
+	#section1 .panel p {
+		width: 100%;
+		float: none;
+		margin: auto auto 10px auto;
+	}
+	.panel_wrap img, #section-hide .panel_djs img {
+		width: 100%;
+		max-width: 100%;
+	}
+	.panel_djs .large-4.medium-4.small-12.cell div {
+		margin: 0 auto;
+		text-align: center;
+	}
+	ul.border-bottom {
+		display: none;
+	}
+	#section0 .tusker_beer img {
+		width: 20%;
+	}
+	#section0 .locaton .button {
+		padding: 10px 20px 10px 20px;
+		margin: 0px;
+		font-size: 20px;
+	}
+	#section1 {
+		background-image: none;
+	}
 }
