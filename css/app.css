@@ -518,7 +518,39 @@ header .fa {
 }
 #section0 .tusker_beer img {
 	width: 35%;
+
 }
+.container_wrap{
+	top:0px;
+	left:0px;
+	right:0px;
+	z-index:99
+}
+.loader_music{
+	background-image: url(../images/music_loader.png);
+    position: absolute;
+	z-index: 9;
+	top:0px;
+	left:0px;
+	right:0px;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+	background-position: 50% 8px;
+	-webkit-animation: spin 7s linear infinite;
+	animation: spin 7s linear infinite
+}
+
+@-webkit-keyframes spin {
+	0% { -webkit-transform: rotate(360deg); }
+	100% { -webkit-transform: rotate(0deg); }
+  }
+  
+  @keyframes spin {
+	0% { transform: rotate(360deg); }
+	100% { transform: rotate(0deg); }
+  }
+
 #section1 .panel {
 	position: absolute;
 	bottom: -35%;
@@ -711,8 +743,8 @@ ul.border-bottom li {
 /*----- PRELOADER  CSS START HERE-----*/
 
 #loader-wrapper {
-	background: -webkit-radial-gradient(bottom, #b11919 0%, #730f0f 50%, #310606 78%);
-	background: radial-gradient(bottom, #b11919 0%, #730f0f 50%, #310606 78%);
+	
+	background:#000;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -742,17 +774,14 @@ ul.border-bottom li {
 	margin: auto;
 	float: none;
 }
-#loader-wrapper h2, #loader-wrapper h1 {
-	font-family: 'Nothing You Could Do', cursive;
-	color: white;
-}
-#loader-wrapper h1 {
-	font-size: 2vw;
-}
 #loader-wrapper h2 {
-	font-size: 3.1vw;
-	margin-bottom: 0.3em;
+	font-family: "Cervo-LightItalic";
+	text-transform: uppercase;
+	color: white;
+	font-size: 5vw;
+	margin-bottom: 0;
 }
+
 .text-container {
 	position: fixed;
 	right: 0px;
@@ -820,7 +849,7 @@ ul.border-bottom li {
 	50% {
 		opacity: 1;
 		-webkit-transform: translateY(-10px);
-		background: red;
+		background: #62EB92;
 	}
 	100% {
 		opacity: .3;
@@ -835,7 +864,7 @@ ul.border-bottom li {
 	50% {
 		opacity: 1;
 		transform: translateY(-10px);
-		background: red;
+		background: #62EB92;
 	}
 	100% {
 		opacity: .8;
@@ -905,7 +934,7 @@ footer {
 		max-width: 100%;
 	}
 
-	#section1 .panel, #section1 .panel02, .panel_djs .panel02.textleft {
+	#section1 .panel, #section1 .panel02, .panel_djs .panel02.textleft,.container_wrap  {
 		position: initial;
 		bottom: initial;
 		right: initial;
@@ -924,6 +953,10 @@ footer {
 	#section1 .panel_wrap .absolute {
 		position: initial;
 		top: initial;
+	}
+
+	.loader_music{
+display: none;
 	}
 
 }
@@ -1041,14 +1074,17 @@ margin: auto;
         position: initial;
         top: initial;
     }
-    #section1 .panel,#section1 .panel02,.panel_djs .panel02.textleft {
+    #section1 .panel,#section1 .panel02,.panel_djs .panel02.textleft,.container_wrap {
         position: initial;
         bottom: initial;
         right: initial;
         left: initial;
         text-align: center;
         margin: 0 auto;
-    }
+	}
+	.loader_music{
+display: none;
+	}
     #section1 .panel p {
         width: 100%;
         float: none;
